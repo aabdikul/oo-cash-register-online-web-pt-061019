@@ -25,7 +25,7 @@ class CashRegister
     end
 
   def items()
-    return @list
+    @list
   end
 
   end
