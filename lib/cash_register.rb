@@ -22,7 +22,7 @@ class CashRegister
       return "There is no discount to apply."
     end
 
-  def self.items()
+  def items()
     @list
   end
 
