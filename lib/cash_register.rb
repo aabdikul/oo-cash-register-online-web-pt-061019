@@ -19,6 +19,12 @@ class CashRegister
     else
       return "There is no discount to apply."
     end
+
+  def items()
+    array = []
+    self.add_item(item,price,quantity=1) << array
+    return array
+
   end
 
 
