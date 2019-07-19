@@ -14,7 +14,7 @@ class CashRegister
   def apply_discount()
     new_variable = @discount.to_f/100
     @total = (1-new_variable) * @total
-    return "After the discount, the total comes to $800."
+    return "After the discount, the total comes to #{@total}."
   end
 
 end
