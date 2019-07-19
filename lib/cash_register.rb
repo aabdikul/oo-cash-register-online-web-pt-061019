@@ -16,10 +16,10 @@ class CashRegister
     if @discount > 0
       @total = (1-new_variable) * @total
       return "After the discount, the total comes to $#{@total.to_i}."
-  else
+    else
       return "There is no discount to apply."
+    end
   end
-end
 
 
 
