@@ -21,9 +21,11 @@ class CashRegister
     else
       return "There is no discount to apply."
     end
+  end
+
 
   def items()
     @list
   end
 
-  end
+end
