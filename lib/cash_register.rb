@@ -22,7 +22,7 @@ class CashRegister
 
   def items()
     array = []
-    self.add_item(item,price,quantity=1) << array
+    array << self.add_item(item,price,quantity=1) 
     return array
   end
 
