@@ -24,6 +24,7 @@ class CashRegister
     array = []
     self.add_item(item,price,quantity=1) << array
     return array
+  end
 
   end
 
