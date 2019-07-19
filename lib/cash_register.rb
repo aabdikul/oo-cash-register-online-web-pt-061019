@@ -11,7 +11,6 @@ class CashRegister
 
   def add_item(item,price,quantity=1)
     @total += price * quantity
-    quantity.times {@list << item}
   end
 
   def apply_discount()
@@ -24,7 +23,10 @@ class CashRegister
     end
 
   def items()
-    return @list
+    array = []
+    self.add_item(item,price,quantity=1)
+    array << item
+    return array
   end
 
   end
